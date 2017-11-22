@@ -9,7 +9,7 @@ public class Aula17Exm01 {
 
     public static void main(String[] args) {
         try {
-            ProdutoDAO dao = new ProdutoDAOJDBC();
+            ProdutoDAO dao = new ProdutoDAOXML();
             
 
             Random rnd = new Random();

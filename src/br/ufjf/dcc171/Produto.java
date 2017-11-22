@@ -1,5 +1,8 @@
 package br.ufjf.dcc171;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Produto {
 
     private String nome;
@@ -24,5 +27,10 @@ public class Produto {
     public void setQtd(Integer qtd) throws Exception{
         if(qtd < 0) throw new Exception("A quantidade deve ser positiva!!");
         this.qtd = qtd;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto{" + "nome=" + nome + ", qtd=" + qtd + '}';
     }
 }

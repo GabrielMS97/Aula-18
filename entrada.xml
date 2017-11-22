@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<produtos>
+    <produto>
+        <nome> Produto via XML </nome>
+        <qtd> 10 </qtd>
+    </produto>
+    <produto>
+        <nome> Produto 2 via XML </nome>
+        <qtd> 1010 </qtd>
+    </produto>
+</produtos>
